@@ -2,12 +2,7 @@
   <div class="app-container p-3 bg-black m-auto">
     <SongList />
   </div>
-  <div class= "home" >
-    <p> <router-link to = "/Home"> HOME </router-link></p>
-  </div>
 </template>
-
-
 
 <script>
 import SongList from './components/SongList.vue';
@@ -44,7 +39,7 @@ import firebase from 'firebase';
 }
 .app-container {
   width: 350px;
-  height: 700px;
+  height: 1100px;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

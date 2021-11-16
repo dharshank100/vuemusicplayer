@@ -3,8 +3,9 @@
         <div class="text-green-300 font-bold text-center text-3xl mb-7 mt-3">
             My Music Player
         </div>
-        <div class="text-green-300 font-bold text-center text-1xl mb-7 mt-3">
-           (Enjoy Your Favourite Songs)
+          <img src="https://github.com/dharshank100/musicplayer/raw/main/happy.jpeg" />
+        <div class="text-green-300 font-bold text-center text-2xl mb-7 mt-3">
+           (Music Addict)
         </div>
         <div
             v-for="(song, songIndex) in list" v-bind:key="song.id"
